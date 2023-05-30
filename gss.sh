@@ -8,3 +8,4 @@ sudo tar xf gotty.tar.gz -C /usr/local/bin
 #if you dont see this something went wrong
 gotty --version
 
+gotty -p (port) --permit-write=true bash 
